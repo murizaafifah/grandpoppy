@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/frontend/libraries/bootstrap/css/bootstrap.css">
+    <!--My Css-->
+    <link rel="stylesheet" href="/frontend/style/main.css">
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <title>Grand Poppy</title>
+  </head>
+  <link rel="icon" type="image/x-icon" href="/frontend/img/favicon.png">
+  <body>
+
+
+<!--Header-->
+<header class="header-2" style="background-color:#FAF2E7; color:#1C1B1B;">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="logo-brand">
+                    Grand Poppy
+                </div>
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="col-6">
+                <div class="topnav">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#custom-order">Custom Order</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="auth-user">
+                    <a href="/pages/login-page.html">Login</a>
+                    <a href="/pages/cart.html">Cart
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+<!--TUTUP Header-->
+
+<!--CART BODY SECTION -->
+<section class="cart-section">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-8">
+                <div class="section-user-information">
+                    <div class="logo-brand" style="text-align: center;">
+                        <span style="color: #1C1B1B;" >
+                            Grand Poppins
+                        </span>
+                    </div>
+                    <br>
+                    <h5>
+                        Checkout
+                    </h5>
+                    <p>
+                        You have 1 items in your cart
+                    </p>
+
+                    <form action="get" class="form-buyer">
+
+                        <label for="-email-user">Your Email</label> <br>
+                        <input type="text" name="user-information" id="email-user">
+
+                        <input type="checkbox" name="user-information" id="news-offers">
+                        <label for="-news-offers">Email me with news and offers</label> 
+                        
+                        <div class="row">
+                            <div class="col">
+                                <label for="-first-name">First Name</label> <br>
+                                <input type="text" name="user-information" id="first-name">
+                            </div>
+                            <div class="col">
+                                <label for="-last-name">Last Name</label> <br>
+                                <input type="text" name="user-information" id="last-name">
+                            </div>
+                        </div>
+                        <br>
+
+                        <br>
+                        <h5>
+                            Shipping Address
+                        </h5> <br>
+                        <label for="-address">Adress Location</label> <br>
+                        <input type="text" name="user-information" id="address">
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="-province">Province</label> <br>
+                                <input type="text" name="user-information" id="province">
+                            </div>
+                            <div class="col">
+                                <label for="-city">City</label> <br>
+                                <input type="text" name="user-information" id="city">
+                            </div>
+                        </div>
+                        <input type="checkbox" name="user-information" id="save-data">
+                        <label for="-save-data">Save this information for next time</label> 
+
+                        <br> <br>
+                        <div class="row">
+                            <div class="col">
+                                <a href="/pages/cart.html">
+                                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                    go back to cart
+                                </a>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="section-products-checkout">
+                    <h5>
+                        Products Checkout
+                    </h5>
+
+                    SIMPLE BEAUTIFUL MAGNOLIA ARTIFICIAL FLOWER VASE
+                     <br>
+                    <div class="row">
+                        <div class="col">
+                            <h6>quantity</h6>
+                        </div>
+                        <div class="col">
+                            <h6>1x</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h6>price</h6>
+                        </div>
+                        <div class="col">
+                            <h6>RP 850.000</h6>
+                        </div>
+                    </div>
+
+                    <br> <br>
+                    <h5>
+                        Payment Confirmation 
+                    </h5> <br> 
+
+                    <label for="bank">Bank</label> <br>
+                        <input type="text" name="payment-confirmation" id="bank" placeholder="Bank Mandiri" readonly>
+
+                        <br> <br>
+
+                    <label for="no-rek">No, Rekening</label> <br>
+                        <input type="text" name="payment-confirmation" id="no-rek" placeholder="1234 5423 1244 6756" readonly>
+
+                        <br> <br>
+
+                    <label for="upload-bukti">Upload Bukti Bayar</label> <br>
+                        <input type="file" name="payment-confirmation" id="upload-bukti">
+
+                        <br> <br>
+
+
+                    <div class="button-confirmation" style="text-align: right;">
+                       <a href="/pages/success-order.html">
+                        <button>
+                            Confirm
+                        </button>
+                       </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--CART BODY SECTION-->
+
+<!--FOOTER-->
+<footer class="footer-auth-user">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" style="text-align: center ;">
+                Copyright @2025 <b>Grand Poppy</b>. All right reserved 
+            </div>
+        </div>
+    </div>
+</footer>
+<!--TUTUP FOOTER-->
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="/frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+
+
+  </body>
+</html>
