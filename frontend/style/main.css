@@ -1,5 +1,5 @@
 .background-hero {
-    background-image: url(/frontend/img/background-hero.png);
+    background-image: url(/grandpoppy/frontend/img/background-hero.png);
     background-repeat: no-repeat;
     background-size:cover ;
     height: 851px;
@@ -293,7 +293,7 @@ PAGE SIGN IN DAN SIGN UP
     text-decoration: none;
 }
 .hero-section-auth-user {
-    background-image: url(/frontend/img/bg-hero-auth.png);
+    background-image: url(/grandpoppy/frontend/img/bg-hero-auth.png);
     background-repeat: no-repeat;
     background-size: cover;
 
